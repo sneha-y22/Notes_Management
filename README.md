@@ -40,8 +40,11 @@ Steps:
 1. App.jsx
 
    -> Root component of the application.
+   
    -> Holds all application state (notes, loading).
+   
    -> Handles adding and deleting notes.
+   
    -> Controls conditional rendering of Loader, EmptyState, and NoteList.
 
 2. NoteForm.jsx
