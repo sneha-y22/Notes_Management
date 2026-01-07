@@ -21,7 +21,7 @@ npm
 Steps:
 
 1. Clone the repository:
-   git clone <your-github-repo-url>
+   git clone https://github.com/sneha-y22/Notes_Management
 
 2. Navigate into the project folder:
    cd notes-management-app
