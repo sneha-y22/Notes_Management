@@ -50,18 +50,23 @@ Steps:
 2. NoteForm.jsx
 
    -> Handles note creation.
+   
    -> Manages form inputs and validation.
+   
    -> Displays inline error message if the title is empty.
+   
    -> Disables submit button when validation fails.
 
 3. NoteList.jsx
 
    -> Renders the list of notes.
+   
    -> Passes each note to NoteItem.
 
 4. NoteItem.jsx
 
    -> Displays individual note details.
+   
    -> Provides a delete button to remove the note.
 
 5. Loader.jsx
