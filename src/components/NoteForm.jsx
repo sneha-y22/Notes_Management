@@ -21,7 +21,6 @@ export default function NoteForm({ onAddNote }) {
 
     onAddNote(newNote);
 
-    // Clear form after success
     setTitle("");
     setDescription("");
     setError("");
@@ -50,9 +49,7 @@ export default function NoteForm({ onAddNote }) {
         />
       </div>
 
-      <button type="submit" disabled={title.trim() === ""}>
-        Submit
-      </button>
+      <button type="submit">Submit</button>
     </form>
   );
 }

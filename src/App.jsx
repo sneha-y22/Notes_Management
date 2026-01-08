@@ -8,7 +8,6 @@ export default function App() {
   const [notes, setNotes] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  // Loader simulation (mandatory)
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
